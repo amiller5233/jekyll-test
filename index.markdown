@@ -6,6 +6,8 @@ layout: test
 title: Index
 ---
 
+{% assign name = "It worked!" %}
+
 <header>
 	<div class="bg-dark collapse" id="navbarHeader" style="">
 		<div class="container">
@@ -216,3 +218,5 @@ title: Index
 		<p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a href="/docs/5.0/getting-started/introduction/">getting started guide</a>.</p>
 	</div>
 </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
